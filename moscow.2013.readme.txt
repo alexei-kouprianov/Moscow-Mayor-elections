@@ -1,0 +1,51 @@
+################################################################
+# Moscow mayor elections September 8, 2013 data
+# Collected by Central Electoral Commission of Russian Federation
+# Retrieved from the CEK RF website and reduced to a CSV file 
+# by Alexei Kouprianov : alexei.kouprianov@gmail.com
+################################################################
+
+The dataset contains data from the Moscow Mayor 
+(`Mer') elections (September 8, 2013): 3597 polling 
+stations united in 133 districts. 
+
+
+################################################################
+# Explanation of variables
+################################################################
+
+UIK : Polling station;
+UIK.NO : Polling station number;
+VOTERS : (orig. "Число избирателей, внесенных в список") Number of registered voters;
+BALL.RECEIVED : (orig. "Число бюллетеней, полученных УИК") Number of blank ballots received by a Polling station;
+BALL.ISS.STATION : (orig. "Число бюллетеней, выданных в помещении для голосования") Number of blank ballots issued inside the Polling station;
+BALL.ISS.EXTRA : (orig. "Число бюллетеней, выданных вне помещения для голосования") Number of blank ballots issued outside the Polling station (usually for disabled voting at home by appointment);
+BALL.CANCELLED : (orig. "Число погашенных бюллетеней") Number of unused blank ballots which had been cancelled before the counting procedure began;
+BALL.PORTABLE_BOXES : (orig. "Число бюллетеней, содержащихся в переносных ящиках") Number of ballots cast in the portable ballot boxes;
+BALL.STATIONARY_BOXES : (orig. "Число бюллетеней, содержащихся в стационарных ящиках") Number of ballots cast in the stationary ballot boxes;
+BALL.INVALID : (orig. "Число недействительных бюллетеней") Number of invalid ballots;
+BALL.VALID : (orig. "Число действительных бюллетеней") Number of valid ballots;
+ABSENT.RECEIVED : (orig. "Число открепительных удостоверений, полученных УИК") Number of `otkrepitelnoie udostoverenniie' (Absentee Certificates) received by a Polling station;
+ABSENT.ISS.UIK.BEFORE : (orig. "Число открепительных удостоверений, выданных УИК до дня голосования") Number of Absentee Certificates issued by a Polling station before the day of vote;
+VOTED_WITH_ABSENT : "(orig. Число избирателей, проголосовавших по открепительным удостоверениям") Number of voters who voted using Absentee Certificate;
+ABSENT.UNUSED : (orig. "Число неиспользованных открепительных удостоверений") Number of unused Absentee Certificates;
+ABSENT.ISS.TIK : (orig. "Число открепительных удостоверений, выданных ТИК избирателям") Number of Absentee Certificates issued by the Territorial Electoral Commissions;
+ABSENT.LOST : (orig. "Число утраченных открепительных удостоверений") Number of lost Absentee Certificates;
+BALL.LOST : (orig. "Число утраченных бюллетеней") Number of lost ballots;
+BALL.NOT_RECORDED: (orig. "Число бюллетеней, не учтенных при получении") Number of ballots which had been received by a Polling station but not registered properly after that;
+DEGTIAREV : (orig. "Дегтярев Михаил Владимирович") Number of ballots cast for Mikhail Degtiarev;
+DEGTIAREV.pct : Share of ballots cast for Mikhail Degtiarev as calculated by the Electoral Commission;
+LEVICHEV : (orig. "Левичев Николай Владимирович") Number of ballots cast for Nikolai Levichev;
+LEVICHEV.pct : Share of ballots cast for Nikolai Levichev as calculated by the Electoral Commission;
+MELNIKOV : (orig. "Мельников Иван Иванович") Number of ballots cast for Ivan Melnikov;
+MELNIKOV.pct : Share of ballots cast for Ivan Melnikov as calculated by the Electoral Commission;
+MITROKHIN : (orig. "Митрохин Сергей Сергеевич") Number of ballots cast for Sergei Mitrokhin;
+MITROKHIN.pct : Share of ballots cast for Sergei Mitrokhin as calculated by the Electoral Commission;
+NAVALNYI : (orig. "Навальный Алексей Анатольевич") Number of ballots cast for Alexei Navalnyi;
+NAVALNYI.pct : Share of ballots cast for Alexei Navalnyi as calculated by the Electoral Commission;
+SOBIANIN : (orig. "Собянин Сергей Семенович") Number of ballots cast for Sergei Sobianin;
+SOBIANIN.pct : Share of ballots cast for Sergei Sobianin as calculated by the Electoral Commission;
+URL : URL for a given district (rayon) table;
+DISTRICT.NO : District (rayon) number;
+DISTRICT.01 : District (rayon) name and number;
+DISTRICT : District (rayon) name;
